@@ -102,11 +102,11 @@ export default function Countdown() {
                             Set
                         </Button>
                     </div>
-                    {/* Display the format  for left*/}
+                
                     <div className="text-6xl font-bold text-gray-800 dark:text-gray-200 mb-8 text-left">
                         {formatTime(timeLeft)}
                     </div>
-                    {/* Button to start, Pause and reset the time */}
+                    
                     <div className="flex justify-center gap-4">
                         <Button
                             onClick={handleStart}
